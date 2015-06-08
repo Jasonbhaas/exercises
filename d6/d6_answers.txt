@@ -1,0 +1,26 @@
+What does git init do?
+	- git init initializes a new git file. Say I'm working on some program. If I want git to start keeping track of my changes and updates, then I begin doing this with git init. From here on out, it tracks when I changed the file, and I can add/submit new versions ect.
+What does git add do? How is it different from git commit?
+	- git add stages new versions to commit but does not actually record/save the changes. Git Commit saves the new verison of the document and takes note of the changes between the versions. Commit is a little more permanent than add.
+What is the difference between staged and committed (or versioned) files?
+	- staged versions are not actually saved, so later on, you cannot go back and access them whereas you can with committed versions of a file.
+What's the shortcut for adding all files and commiting them?
+	- git add --all
+How do you unstage a staged file? How do you go back to an old version of a committed file?
+
+Why are commit messages very important?
+
+How do I revert to a previous commit (i.e. go back to an earlier "draft")?
+
+How do you exit out of vi? (Also called vim.)
+	- press esc to switch modes, :w to save and :q to quit
+
+
+What's the difference between GitHub and git? Could git exist without GitHub? Could GitHub exist without git?
+	- Github is a site to publish all of your code on, and to back it up online. Git is the thing that manages all of your different versions of a document, and sends it to GitHub. Git could exist withough GitHub, but GitHub could not exist without Git.
+Why is GitHub a cool company?
+	- They are super secure and they host literally all of the code made by everyone.
+What does git push do?
+	- Git push sends your stuff to the clouds!
+What does git pull do? How is it different from/same as git fetch and git merge?
+	- ...
