@@ -1,0 +1,11 @@
+<h4>Pins</h4>
+
+<br/>
+<br/>
+
+<ul>
+<% @pins.each do |pin| %>
+  <li><%= link_to(pin.user.name, "/users/#{pin.user.id}") %>: <%= pin.name %>:  <%= pin.description %></li>
+<% end %>
+</ol>
+

@@ -1,0 +1,6 @@
+<h4>Welcome to: <%= @user.name%>'s page!</h4>
+<ul>
+<% @pins.each do |pin| %>
+  <li><%= pin.name %>:  <%= pin.description %></li>
+<% end %>
+</ol>
